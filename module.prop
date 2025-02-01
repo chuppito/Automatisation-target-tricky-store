@@ -1,0 +1,6 @@
+id=tricky_store_module
+name=Tricky Store Module
+version=1.0
+versionCode=1
+author=Chuppito
+description=Automatise la gestion de tricky_store avec Magisk
