@@ -4,4 +4,4 @@
 mkdir -p /data/adb/tricky_store
 
 # Exécution de ta commande
-su -c "cat /data/system/packages.list | grep -v '@system' | sed 's/ .*//' > /data/adb/tricky_store/target.txt; echo -e 'com.google.android.gmf\ncom.google.android.gms\ncom.android.vending' >> /data/adb/tricky_store/target.txt;"
+su -c "cat /data/system/packages.list | grep -v '@system' | sed 's/ .*//' > /data/adb/tricky_store/target.txt; echo -e 'com.google.android.gms\ncom.google.android.gms\ncom.android.vending' >> /data/adb/tricky_store/target.txt;"
